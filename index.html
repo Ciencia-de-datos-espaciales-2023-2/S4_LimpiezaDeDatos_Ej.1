@@ -14573,33 +14573,19 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     </script>
     <!-- End of mathjax configuration --></head>
 <body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[94]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-<span class="n">linkGH</span> <span class="o">=</span><span class="s2">"https://github.com/Ciencia-de-datos-espaciales-2023-2/EjemploParaPracticar/raw/main/raeePeru.csv"</span>
-<span class="n">datos</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">linkGH</span><span class="p">)</span>
-</pre></div>
 
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[12]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">datos</span> 
+<span class="n">link</span> <span class="o">=</span> <span class="s2">"https://github.com/CienciaDeDatosEspacial/code_and_data/raw/main/data/carbonEmi_downloaded.csv"</span>
+<span class="n">carbon</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">link</span><span class="p">)</span>
+<span class="n">carbon</span>
 </pre></div>
 
      </div>
@@ -14617,7 +14603,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[12]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[94]:</div>
 
 
 
@@ -14640,65 +14626,59 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>Unnamed: 0</th>
-      <th>Departamento</th>
-      <th>Provincia</th>
-      <th>Distrito</th>
-      <th>Entidad</th>
-      <th>Ubicación</th>
-      <th>TipodeRAEE</th>
+      <th>name</th>
+      <th>slug</th>
+      <th>value</th>
+      <th>date_of_information</th>
+      <th>ranking</th>
+      <th>region</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th>0</th>
-      <td>0</td>
-      <td>Amazonas</td>
-      <td>Chachapoyas</td>
-      <td>Chachapoyas</td>
-      <td>Centro de Atención -  CLARO</td>
-      <td>Jr. Ortiz Arrieta 580</td>
-      <td>Celulares y sus accesorios</td>
+      <td>China</td>
+      <td>china</td>
+      <td>10,773,248,000.0</td>
+      <td>2019 est.</td>
+      <td>1</td>
+      <td>East and Southeast Asia</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>1</td>
-      <td>Ancash</td>
-      <td>Huaraz</td>
-      <td>Huaraz</td>
-      <td>Centro de Atención -  CLARO</td>
-      <td>Av. Mariscal Toribio de Luzuriaga 523 -Galerías</td>
-      <td>Celulares y sus accesorios.</td>
+      <td>United States</td>
+      <td>united-states</td>
+      <td>5,144,361,000.0</td>
+      <td>2019 est.</td>
+      <td>2</td>
+      <td>North America</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>2</td>
-      <td>Ancash</td>
-      <td>Santa</td>
-      <td>Chimbote</td>
-      <td>Centro de Atención -  CLARO</td>
-      <td>Av. José Galvez 201</td>
-      <td>Celulares y sus accesorios.</td>
+      <td>India</td>
+      <td>india</td>
+      <td>2,314,738,000.0</td>
+      <td>2019 est.</td>
+      <td>3</td>
+      <td>South Asia</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>3</td>
-      <td>Ancash</td>
-      <td>Santa</td>
-      <td>Chimbote</td>
-      <td>Centro de Atención -  CLARO</td>
-      <td>Jr. Manuel Villavicencio</td>
-      <td>Celulares y sus accesorios.</td>
+      <td>Russia</td>
+      <td>russia</td>
+      <td>1,848,070,000.0</td>
+      <td>2019 est.</td>
+      <td>4</td>
+      <td>Central Asia</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>4</td>
-      <td>Ancash</td>
-      <td>Santa</td>
-      <td>Chimbote</td>
-      <td>Plaza Vea</td>
-      <td>Esquina Av. Francisco Bolognesi con Jr. Tumbes...</td>
-      <td>Celulares y sus accesorios.</td>
+      <td>Japan</td>
+      <td>japan</td>
+      <td>1,103,234,000.0</td>
+      <td>2019 est.</td>
+      <td>5</td>
+      <td>East and Southeast Asia</td>
     </tr>
     <tr>
       <th>...</th>
@@ -14708,61 +14688,55 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>...</td>
       <td>...</td>
       <td>...</td>
-      <td>...</td>
     </tr>
     <tr>
-      <th>152</th>
-      <td>152</td>
-      <td>Puno</td>
-      <td>San Roman</td>
-      <td>Juliaca</td>
-      <td>Centro de Atención -  CLARO</td>
-      <td>Jr. Mariano Nuñez 231</td>
-      <td>Celulares y sus accesorios.</td>
+      <th>213</th>
+      <td>Antarctica</td>
+      <td>antarctica</td>
+      <td>28,000.0</td>
+      <td>2019 est.</td>
+      <td>214</td>
+      <td>Antarctica</td>
     </tr>
     <tr>
-      <th>153</th>
-      <td>153</td>
-      <td>San Martín</td>
-      <td>San Martin</td>
-      <td>Tarapoto</td>
-      <td>Centro de Atención -  CLARO</td>
-      <td>Jr. Jiménez Pimentel N° 232</td>
-      <td>Celulares y sus accesorios.</td>
+      <th>214</th>
+      <td>Saint Helena, Ascension, and Tristan da Cunha</td>
+      <td>saint-helena-ascension-and-tristan-da-cunha</td>
+      <td>13,000.0</td>
+      <td>2019 est.</td>
+      <td>215</td>
+      <td>Africa</td>
     </tr>
     <tr>
-      <th>154</th>
-      <td>154</td>
-      <td>Tacna</td>
-      <td>Tacna</td>
-      <td>Tacna</td>
-      <td>Plaza Vea</td>
-      <td>Parcela 9 s/n Sector Pago Silpay</td>
-      <td>Celulares y sus accesorios.</td>
+      <th>215</th>
+      <td>Niue</td>
+      <td>niue</td>
+      <td>8,000.0</td>
+      <td>2019 est.</td>
+      <td>216</td>
+      <td>Australia and Oceania</td>
     </tr>
     <tr>
-      <th>155</th>
-      <td>155</td>
-      <td>Tacna</td>
-      <td>Tacna</td>
-      <td>Tacna</td>
-      <td>Centro de Atención -  CLARO</td>
-      <td>Av. San Martín 259</td>
-      <td>Celulares y sus accesorios.</td>
+      <th>216</th>
+      <td>Northern Mariana Islands</td>
+      <td>northern-mariana-islands</td>
+      <td>0.0</td>
+      <td>2019 est.</td>
+      <td>217</td>
+      <td>Australia and Oceania</td>
     </tr>
     <tr>
-      <th>156</th>
-      <td>156</td>
-      <td>Tumbes</td>
-      <td>Tumbes</td>
-      <td>Tumbes</td>
-      <td>Centro de Atención -  CLARO</td>
-      <td>Calle Plaza De Armas 104</td>
-      <td>Celulares y sus accesorios.</td>
+      <th>217</th>
+      <td>Tuvalu</td>
+      <td>tuvalu</td>
+      <td>0.0</td>
+      <td>2019 est.</td>
+      <td>218</td>
+      <td>Australia and Oceania</td>
     </tr>
   </tbody>
 </table>
-<p>157 rows × 7 columns</p>
+<p>218 rows × 6 columns</p>
 </div>
 </div>
 
@@ -14770,6 +14744,1469 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 </div>
 
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="1.-Keep-the-columns-name,-value,-date_of_information-and-region">1. Keep the columns name, value, date_of_information and region<a class="anchor-link" href="#1.-Keep-the-columns-name,-value,-date_of_information-and-region">&#182;</a></h3>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[20]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">carbon</span><span class="o">.</span><span class="n">columns</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[20]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>Index([&#39;name&#39;, &#39;slug&#39;, &#39;value&#39;, &#39;date_of_information&#39;, &#39;ranking&#39;, &#39;region&#39;], dtype=&#39;object&#39;)</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[95]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">byecolumns</span> <span class="o">=</span> <span class="p">{</span><span class="s1">'name'</span><span class="p">,</span> <span class="s1">'slug'</span><span class="p">,</span> <span class="s1">'value'</span><span class="p">,</span> <span class="s1">'date_of_information'</span><span class="p">,</span> <span class="s1">'ranking'</span><span class="p">,</span> <span class="s1">'region'</span><span class="p">}</span> <span class="o">-</span> <span class="p">{</span><span class="s1">'name'</span><span class="p">,</span> <span class="s1">'value'</span><span class="p">,</span> <span class="s1">'date_of_information'</span><span class="p">,</span> <span class="s1">'region'</span><span class="p">}</span>
+
+<span class="n">link</span> <span class="o">=</span> <span class="s2">"https://github.com/CienciaDeDatosEspacial/code_and_data/raw/main/data/carbonEmi_downloaded.csv"</span>
+<span class="n">carbon</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">link</span><span class="p">)</span>
+
+<span class="n">carbonCleaned</span> <span class="o">=</span> <span class="n">carbon</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span> <span class="o">=</span> <span class="n">byecolumns</span><span class="p">)</span>
+<span class="n">carbonCleaned</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[95]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>name</th>
+      <th>value</th>
+      <th>date_of_information</th>
+      <th>region</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>China</td>
+      <td>10,773,248,000.0</td>
+      <td>2019 est.</td>
+      <td>East and Southeast Asia</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>United States</td>
+      <td>5,144,361,000.0</td>
+      <td>2019 est.</td>
+      <td>North America</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>India</td>
+      <td>2,314,738,000.0</td>
+      <td>2019 est.</td>
+      <td>South Asia</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Russia</td>
+      <td>1,848,070,000.0</td>
+      <td>2019 est.</td>
+      <td>Central Asia</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Japan</td>
+      <td>1,103,234,000.0</td>
+      <td>2019 est.</td>
+      <td>East and Southeast Asia</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>213</th>
+      <td>Antarctica</td>
+      <td>28,000.0</td>
+      <td>2019 est.</td>
+      <td>Antarctica</td>
+    </tr>
+    <tr>
+      <th>214</th>
+      <td>Saint Helena, Ascension, and Tristan da Cunha</td>
+      <td>13,000.0</td>
+      <td>2019 est.</td>
+      <td>Africa</td>
+    </tr>
+    <tr>
+      <th>215</th>
+      <td>Niue</td>
+      <td>8,000.0</td>
+      <td>2019 est.</td>
+      <td>Australia and Oceania</td>
+    </tr>
+    <tr>
+      <th>216</th>
+      <td>Northern Mariana Islands</td>
+      <td>0.0</td>
+      <td>2019 est.</td>
+      <td>Australia and Oceania</td>
+    </tr>
+    <tr>
+      <th>217</th>
+      <td>Tuvalu</td>
+      <td>0.0</td>
+      <td>2019 est.</td>
+      <td>Australia and Oceania</td>
+    </tr>
+  </tbody>
+</table>
+<p>218 rows × 4 columns</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="2.-Change-the-column-name-date_of_information-to-carbon_date">2. Change the column name date_of_information to carbon_date<a class="anchor-link" href="#2.-Change-the-column-name-date_of_information-to-carbon_date">&#182;</a></h3>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[96]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">link</span> <span class="o">=</span> <span class="s2">"https://github.com/CienciaDeDatosEspacial/code_and_data/raw/main/data/carbonEmi_downloaded.csv"</span>
+<span class="n">carbon</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">link</span><span class="p">)</span>
+
+<span class="n">carbonCleaned</span> <span class="o">=</span> <span class="n">carbon</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span> <span class="o">=</span> <span class="n">byecolumns</span><span class="p">)</span>
+<span class="n">carbonCleaned</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="s2">"date_of_information"</span> <span class="p">:</span> <span class="s2">"carbon_date"</span><span class="p">},</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">carbonCleaned</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[96]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>name</th>
+      <th>value</th>
+      <th>carbon_date</th>
+      <th>region</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>China</td>
+      <td>10,773,248,000.0</td>
+      <td>2019 est.</td>
+      <td>East and Southeast Asia</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>United States</td>
+      <td>5,144,361,000.0</td>
+      <td>2019 est.</td>
+      <td>North America</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>India</td>
+      <td>2,314,738,000.0</td>
+      <td>2019 est.</td>
+      <td>South Asia</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Russia</td>
+      <td>1,848,070,000.0</td>
+      <td>2019 est.</td>
+      <td>Central Asia</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Japan</td>
+      <td>1,103,234,000.0</td>
+      <td>2019 est.</td>
+      <td>East and Southeast Asia</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>213</th>
+      <td>Antarctica</td>
+      <td>28,000.0</td>
+      <td>2019 est.</td>
+      <td>Antarctica</td>
+    </tr>
+    <tr>
+      <th>214</th>
+      <td>Saint Helena, Ascension, and Tristan da Cunha</td>
+      <td>13,000.0</td>
+      <td>2019 est.</td>
+      <td>Africa</td>
+    </tr>
+    <tr>
+      <th>215</th>
+      <td>Niue</td>
+      <td>8,000.0</td>
+      <td>2019 est.</td>
+      <td>Australia and Oceania</td>
+    </tr>
+    <tr>
+      <th>216</th>
+      <td>Northern Mariana Islands</td>
+      <td>0.0</td>
+      <td>2019 est.</td>
+      <td>Australia and Oceania</td>
+    </tr>
+    <tr>
+      <th>217</th>
+      <td>Tuvalu</td>
+      <td>0.0</td>
+      <td>2019 est.</td>
+      <td>Australia and Oceania</td>
+    </tr>
+  </tbody>
+</table>
+<p>218 rows × 4 columns</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="3.-Make-sure-the-cells-with-text-does-not-have-neither-trailing-nor-leading-spaces.">3. Make sure the cells with text does not have neither trailing nor leading spaces.<a class="anchor-link" href="#3.-Make-sure-the-cells-with-text-does-not-have-neither-trailing-nor-leading-spaces.">&#182;</a></h3>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[52]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">carbonCleaned</span><span class="o">.</span><span class="n">columns</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[52]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>Index([&#39;name&#39;, &#39;value&#39;, &#39;carbon_date&#39;, &#39;region&#39;], dtype=&#39;object&#39;)</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[97]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">carbon</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">link</span><span class="p">)</span>
+<span class="n">name</span> <span class="o">=</span> <span class="n">carbonCleaned</span><span class="o">.</span><span class="n">name</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">contains</span><span class="p">(</span><span class="n">pat</span><span class="o">=</span><span class="s1">'r\^s|\s$'</span><span class="p">,</span><span class="n">regex</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">carbonCleaned</span><span class="o">.</span><span class="n">name</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">contains</span><span class="p">(</span><span class="n">pat</span><span class="o">=</span><span class="s1">'r\^s|\s$'</span><span class="p">,</span><span class="n">regex</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">carbon_date</span> <span class="o">=</span> <span class="n">carbonCleaned</span><span class="o">.</span><span class="n">carbon_date</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">contains</span><span class="p">(</span><span class="n">pat</span><span class="o">=</span><span class="s1">'r\^s|\s$'</span><span class="p">,</span><span class="n">regex</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">region</span> <span class="o">=</span> <span class="n">carbonCleaned</span><span class="o">.</span><span class="n">region</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">contains</span><span class="p">(</span><span class="n">pat</span><span class="o">=</span><span class="s1">'r\^s|\s$'</span><span class="p">,</span><span class="n">regex</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">espacios</span> <span class="o">=</span> <span class="p">{</span><span class="s2">"name"</span><span class="p">:</span><span class="n">name</span><span class="p">,</span> <span class="s2">"value"</span> <span class="p">:</span> <span class="n">value</span><span class="p">,</span> <span class="s2">"carbon_date"</span><span class="p">:</span> <span class="n">carbon_date</span><span class="p">,</span><span class="s2">"region"</span><span class="p">:</span> <span class="n">region</span><span class="p">}</span>
+
+<span class="n">espacios</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">espacios</span><span class="p">)</span>
+<span class="n">espacios</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[97]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>name</th>
+      <th>value</th>
+      <th>carbon_date</th>
+      <th>region</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>213</th>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>214</th>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>215</th>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>216</th>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>217</th>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+  </tbody>
+</table>
+<p>218 rows × 4 columns</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="4.-Detect-the-presence-of-symbols-in-the-numeric-data-that-are-not-numeric-or-point.">4. Detect the presence of symbols in the numeric data that are not numeric or point.<a class="anchor-link" href="#4.-Detect-the-presence-of-symbols-in-the-numeric-data-that-are-not-numeric-or-point.">&#182;</a></h3>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[105]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">value</span> <span class="o">=</span> <span class="n">carbonCleaned</span><span class="o">.</span><span class="n">name</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">contains</span><span class="p">(</span><span class="n">pat</span><span class="o">=</span><span class="sa">r</span><span class="s1">'[\D|~"."]'</span><span class="p">,</span> <span class="n">regex</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">carbon_date</span> <span class="o">=</span> <span class="n">carbonCleaned</span><span class="o">.</span><span class="n">carbon_date</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">contains</span><span class="p">(</span><span class="n">pat</span><span class="o">=</span><span class="sa">r</span><span class="s1">'[\D|~"."]'</span><span class="p">,</span> <span class="n">regex</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">DatosNoNumericosOPunto</span> <span class="o">=</span> <span class="p">{</span> <span class="s2">"value"</span> <span class="p">:</span> <span class="n">value</span><span class="p">,</span> <span class="s2">"carbon_date"</span><span class="p">:</span> <span class="n">carbon_date</span><span class="p">}</span>
+
+<span class="n">DatosNoNumericosOPunto</span>  <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">DatosNoNumericosOPunto</span><span class="p">)</span>
+<span class="n">DatosNoNumericosOPunto</span> 
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[105]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>value</th>
+      <th>carbon_date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>True</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>True</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>True</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>True</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>True</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>213</th>
+      <td>True</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>214</th>
+      <td>True</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>215</th>
+      <td>True</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>216</th>
+      <td>True</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>217</th>
+      <td>True</td>
+      <td>True</td>
+    </tr>
+  </tbody>
+</table>
+<p>218 rows × 2 columns</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h4 id="4.a)-Eliminar-elementos-no-num%C3%A9ricos-o-puntos-de-la-columna-%22value%22">4.a) Eliminar elementos no num&#233;ricos o puntos de la columna "value"<a class="anchor-link" href="#4.a)-Eliminar-elementos-no-num%C3%A9ricos-o-puntos-de-la-columna-%22value%22">&#182;</a></h4>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[123]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">carbonCleaned</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,[</span><span class="s2">"value"</span><span class="p">]]</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[123]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>10,773,248,000.0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>5,144,361,000.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2,314,738,000.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>1,848,070,000.0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>1,103,234,000.0</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>213</th>
+      <td>28,000.0</td>
+    </tr>
+    <tr>
+      <th>214</th>
+      <td>13,000.0</td>
+    </tr>
+    <tr>
+      <th>215</th>
+      <td>8,000.0</td>
+    </tr>
+    <tr>
+      <th>216</th>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>217</th>
+      <td>0.0</td>
+    </tr>
+  </tbody>
+</table>
+<p>218 rows × 1 columns</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[132]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">link</span> <span class="o">=</span> <span class="s2">"https://github.com/CienciaDeDatosEspacial/code_and_data/raw/main/data/carbonEmi_downloaded.csv"</span>
+<span class="n">carbon</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">link</span><span class="p">)</span>
+<span class="n">carbonCleaned</span> <span class="o">=</span> <span class="n">carbon</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span> <span class="o">=</span> <span class="n">byecolumns</span><span class="p">)</span>
+<span class="n">carbonCleaned</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="s2">"date_of_information"</span> <span class="p">:</span> <span class="s2">"carbon_date"</span><span class="p">},</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="kn">import</span> <span class="nn">re</span>
+<span class="n">ByeCommas</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="nb">float</span><span class="p">(</span><span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="s1">'[","|\s]'</span><span class="p">,</span><span class="s2">""</span><span class="p">,</span><span class="n">x</span><span class="p">))</span>
+
+<span class="n">carbonCleaned</span><span class="p">[</span><span class="s2">"value"</span><span class="p">]</span><span class="o">=</span><span class="n">carbonCleaned</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,[</span><span class="s2">"value"</span><span class="p">]]</span><span class="o">.</span><span class="n">applymap</span><span class="p">(</span><span class="n">ByeCommas</span><span class="p">)</span>
+<span class="n">carbonCleaned</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,[</span><span class="s2">"value"</span><span class="p">]]</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[132]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1.077325e+10</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>5.144361e+09</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2.314738e+09</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>1.848070e+09</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>1.103234e+09</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>213</th>
+      <td>2.800000e+04</td>
+    </tr>
+    <tr>
+      <th>214</th>
+      <td>1.300000e+04</td>
+    </tr>
+    <tr>
+      <th>215</th>
+      <td>8.000000e+03</td>
+    </tr>
+    <tr>
+      <th>216</th>
+      <td>0.000000e+00</td>
+    </tr>
+    <tr>
+      <th>217</th>
+      <td>0.000000e+00</td>
+    </tr>
+  </tbody>
+</table>
+<p>218 rows × 1 columns</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h4 id="4.b)-Eliminar-elementos-no-num%C3%A9ricos-o-puntos-de-la-columna-%22carbon_date%22">4.b) Eliminar elementos no num&#233;ricos o puntos de la columna "carbon_date"<a class="anchor-link" href="#4.b)-Eliminar-elementos-no-num%C3%A9ricos-o-puntos-de-la-columna-%22carbon_date%22">&#182;</a></h4>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[152]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">link</span> <span class="o">=</span> <span class="s2">"https://github.com/CienciaDeDatosEspacial/code_and_data/raw/main/data/carbonEmi_downloaded.csv"</span>
+<span class="n">carbon</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">link</span><span class="p">)</span>
+<span class="n">carbonCleaned</span> <span class="o">=</span> <span class="n">carbon</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span> <span class="o">=</span> <span class="n">byecolumns</span><span class="p">)</span>
+<span class="n">carbonCleaned</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="s2">"date_of_information"</span> <span class="p">:</span> <span class="s2">"carbon_date"</span><span class="p">},</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">carbonCleaned</span><span class="p">[</span><span class="s2">"value"</span><span class="p">]</span><span class="o">=</span><span class="n">carbonCleaned</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,[</span><span class="s2">"value"</span><span class="p">]]</span><span class="o">.</span><span class="n">applymap</span><span class="p">(</span><span class="n">ByeCommas</span><span class="p">)</span>
+<span class="n">carbonCleaned</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,[</span><span class="s2">"value"</span><span class="p">]]</span>
+
+<span class="n">carbonCleaned</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span><span class="s2">"carbon_date"</span><span class="p">]</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[152]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>0      2019 est.
+1      2019 est.
+2      2019 est.
+3      2019 est.
+4      2019 est.
+         ...    
+213    2019 est.
+214    2019 est.
+215    2019 est.
+216    2019 est.
+217    2019 est.
+Name: carbon_date, Length: 218, dtype: object</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[160]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">carbonCleaned</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span><span class="s2">"carbon_date"</span><span class="p">]</span><span class="o">=</span><span class="n">carbonCleaned</span><span class="o">.</span><span class="n">carbon_date</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">pat</span><span class="o">=</span><span class="sa">r</span><span class="s1">'[\D &amp; ~"."&amp;\s]'</span><span class="p">,</span><span class="n">repl</span><span class="o">=</span><span class="s2">""</span><span class="p">,</span><span class="n">regex</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">carbonCleaned</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[160]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>name</th>
+      <th>value</th>
+      <th>carbon_date</th>
+      <th>region</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>China</td>
+      <td>1.077325e+10</td>
+      <td>2019</td>
+      <td>East and Southeast Asia</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>United States</td>
+      <td>5.144361e+09</td>
+      <td>2019</td>
+      <td>North America</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>India</td>
+      <td>2.314738e+09</td>
+      <td>2019</td>
+      <td>South Asia</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Russia</td>
+      <td>1.848070e+09</td>
+      <td>2019</td>
+      <td>Central Asia</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Japan</td>
+      <td>1.103234e+09</td>
+      <td>2019</td>
+      <td>East and Southeast Asia</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>213</th>
+      <td>Antarctica</td>
+      <td>2.800000e+04</td>
+      <td>2019</td>
+      <td>Antarctica</td>
+    </tr>
+    <tr>
+      <th>214</th>
+      <td>Saint Helena, Ascension, and Tristan da Cunha</td>
+      <td>1.300000e+04</td>
+      <td>2019</td>
+      <td>Africa</td>
+    </tr>
+    <tr>
+      <th>215</th>
+      <td>Niue</td>
+      <td>8.000000e+03</td>
+      <td>2019</td>
+      <td>Australia and Oceania</td>
+    </tr>
+    <tr>
+      <th>216</th>
+      <td>Northern Mariana Islands</td>
+      <td>0.000000e+00</td>
+      <td>2019</td>
+      <td>Australia and Oceania</td>
+    </tr>
+    <tr>
+      <th>217</th>
+      <td>Tuvalu</td>
+      <td>0.000000e+00</td>
+      <td>2019</td>
+      <td>Australia and Oceania</td>
+    </tr>
+  </tbody>
+</table>
+<p>218 rows × 4 columns</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="5.-Make-sure-there-are-no-spaces-as-part-of-the-column-names.">5. Make sure there are no spaces as part of the column names.<a class="anchor-link" href="#5.-Make-sure-there-are-no-spaces-as-part-of-the-column-names.">&#182;</a></h3>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[178]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">carbonCleaned</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">contains</span><span class="p">(</span><span class="n">pat</span><span class="o">=</span><span class="sa">r</span><span class="s1">'\s'</span><span class="p">,</span><span class="n">regex</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[178]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>array([False, False, False, False])</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="6.-Get-rid-of-any-value-detected-in-the-previous-step:">6. Get rid of any value detected in the previous step:<a class="anchor-link" href="#6.-Get-rid-of-any-value-detected-in-the-previous-step:">&#182;</a></h3>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[177]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">carbonCleaned</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">pat</span><span class="o">=</span><span class="sa">r</span><span class="s1">'\s'</span><span class="p">,</span> <span class="n">repl</span><span class="o">=</span><span class="s2">""</span><span class="p">,</span><span class="n">regex</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">carbonCleaned</span><span class="o">.</span><span class="n">columns</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[177]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>Index([&#39;name&#39;, &#39;value&#39;, &#39;carbon_date&#39;, &#39;region&#39;], dtype=&#39;object&#39;)</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="7.-Keep-only-the-year-value-in-the-column-carbon_date.">7. Keep only the year value in the column carbon_date.<a class="anchor-link" href="#7.-Keep-only-the-year-value-in-the-column-carbon_date.">&#182;</a></h3>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Ya se eliminaron los " est." en el apartado 4b.</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[184]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Tabla final</span>
+<span class="n">carbonCleaned</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[184]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>name</th>
+      <th>value</th>
+      <th>carbon_date</th>
+      <th>region</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>China</td>
+      <td>1.077325e+10</td>
+      <td>2019</td>
+      <td>East and Southeast Asia</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>United States</td>
+      <td>5.144361e+09</td>
+      <td>2019</td>
+      <td>North America</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>India</td>
+      <td>2.314738e+09</td>
+      <td>2019</td>
+      <td>South Asia</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Russia</td>
+      <td>1.848070e+09</td>
+      <td>2019</td>
+      <td>Central Asia</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Japan</td>
+      <td>1.103234e+09</td>
+      <td>2019</td>
+      <td>East and Southeast Asia</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>213</th>
+      <td>Antarctica</td>
+      <td>2.800000e+04</td>
+      <td>2019</td>
+      <td>Antarctica</td>
+    </tr>
+    <tr>
+      <th>214</th>
+      <td>Saint Helena, Ascension, and Tristan da Cunha</td>
+      <td>1.300000e+04</td>
+      <td>2019</td>
+      <td>Africa</td>
+    </tr>
+    <tr>
+      <th>215</th>
+      <td>Niue</td>
+      <td>8.000000e+03</td>
+      <td>2019</td>
+      <td>Australia and Oceania</td>
+    </tr>
+    <tr>
+      <th>216</th>
+      <td>Northern Mariana Islands</td>
+      <td>0.000000e+00</td>
+      <td>2019</td>
+      <td>Australia and Oceania</td>
+    </tr>
+    <tr>
+      <th>217</th>
+      <td>Tuvalu</td>
+      <td>0.000000e+00</td>
+      <td>2019</td>
+      <td>Australia and Oceania</td>
+    </tr>
+  </tbody>
+</table>
+<p>218 rows × 4 columns</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h5 id="When-all-tasks-are-done,-save-the-cleaned-file-inside-your-data-folder:">When all tasks are done, save the cleaned file inside your <strong>data</strong> folder:<a class="anchor-link" href="#When-all-tasks-are-done,-save-the-cleaned-file-inside-your-data-folder:">&#182;</a></h5>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[183]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
+
+<span class="n">carbonCleaned</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s2">"carbonCleaned.csv"</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
 </div>
 
 </div>
