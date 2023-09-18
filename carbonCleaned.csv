@@ -1,0 +1,219 @@
+,name,value,carbon_date,region
+0,China,10773248000.0,2019,East and Southeast Asia
+1,United States,5144361000.0,2019,North America
+2,India,2314738000.0,2019,South Asia
+3,Russia,1848070000.0,2019,Central Asia
+4,Japan,1103234000.0,2019,East and Southeast Asia
+5,Germany,726881000.0,2019,Europe
+6,"Korea, South",686954000.0,2019,East and Southeast Asia
+7,Iran,646038000.0,2019,Middle East
+8,Canada,612084000.0,2019,North America
+9,Saudi Arabia,579925000.0,2019,Middle East
+10,Indonesia,563543000.0,2019,East and Southeast Asia
+11,South Africa,470358000.0,2019,Africa
+12,Mexico,463739000.0,2019,North America
+13,Brazil,456670000.0,2019,South America
+14,Australia,417870000.0,2019,Australia and Oceania
+15,United Kingdom,398084000.0,2019,Europe
+16,Turkey (Turkiye),391792000.0,2019,Middle East
+17,France,338425000.0,2019,Europe
+18,Italy,332041000.0,2019,Europe
+19,Thailand,305273000.0,2019,East and Southeast Asia
+20,Poland,304040000.0,2019,Europe
+21,Spain,280624000.0,2019,Europe
+22,Taiwan,279206000.0,2019,East and Southeast Asia
+23,United Arab Emirates,276236000.0,2019,Middle East
+24,Kazakhstan,263689000.0,2019,Central Asia
+25,Malaysia,254764000.0,2019,East and Southeast Asia
+26,Vietnam,249929000.0,2019,East and Southeast Asia
+27,Singapore,238983000.0,2019,East and Southeast Asia
+28,Egypt,235137000.0,2019,Africa
+29,Netherlands,214416000.0,2019,Europe
+30,Pakistan,193869000.0,2019,South Asia
+31,Argentina,193205000.0,2019,South America
+32,Ukraine,185686000.0,2019,Europe
+33,Algeria,151633000.0,2019,Africa
+34,Iraq,143479000.0,2019,Middle East
+35,Philippines,142282000.0,2019,East and Southeast Asia
+36,Belgium,128247000.0,2019,Europe
+37,Qatar,111922000.0,2019,Middle East
+38,Turkmenistan,109037000.0,2019,Central Asia
+39,Nigeria,104494000.0,2019,Africa
+40,Venezuela,103708000.0,2019,South America
+41,Uzbekistan,102965000.0,2019,Central Asia
+42,Czechia,99533000.0,2019,Europe
+43,Bangladesh,96180000.0,2019,South Asia
+44,Kuwait,92582000.0,2019,Middle East
+45,Hong Kong,92493000.0,2019,East and Southeast Asia
+46,Chile,88333000.0,2019,South America
+47,Colombia,81007000.0,2019,South America
+48,Oman,76321000.0,2019,Middle East
+49,Greece,70163000.0,2019,Europe
+50,Romania,68746000.0,2019,Europe
+51,Austria,65540000.0,2019,Europe
+52,Israel,61092000.0,2019,Middle East
+53,Morocco,60200000.0,2019,Africa
+54,Peru,54996000.0,2019,South America
+55,Belarus,54695000.0,2019,Europe
+56,Portugal,50370000.0,2019,Europe
+57,Hungary,48589000.0,2019,Europe
+58,Sweden,48144000.0,2019,Europe
+59,Serbia,47735000.0,2019,Europe
+60,Bahrain,43112000.0,2019,Middle East
+61,Finland,41996000.0,2019,Europe
+62,Laos,40726000.0,2019,East and Southeast Asia
+63,New Zealand,40344000.0,2019,Australia and Oceania
+64,Trinidad and Tobago,39652000.0,2019,Central America and the Caribbean
+65,Switzerland,38739000.0,2019,Europe
+66,Bulgaria,38373000.0,2019,Europe
+67,Libya,38297000.0,2019,Africa
+68,Norway,36731000.0,2019,Europe
+69,Ecuador,36051000.0,2019,South America
+70,Ireland,35475000.0,2019,Europe
+71,Azerbaijan,35389000.0,2019,Middle East
+72,Denmark,33850000.0,2019,Europe
+73,Slovakia,32506000.0,2019,Europe
+74,Burma,31848000.0,2019,East and Southeast Asia
+75,Syria,26893000.0,2019,Middle East
+76,Dominican Republic,26808000.0,2019,Central America and the Caribbean
+77,Lebanon,25838000.0,2019,Middle East
+78,Panama,25263000.0,2019,Central America and the Caribbean
+79,Sri Lanka,23939000.0,2019,South Asia
+80,Tunisia,23692000.0,2019,Africa
+81,Jordan,23470000.0,2019,Middle East
+82,Mongolia,22740000.0,2019,East and Southeast Asia
+83,Angola,19362000.0,2019,Africa
+84,Guatemala,19041000.0,2019,Central America and the Caribbean
+85,Puerto Rico,18999000.0,2019,Central America and the Caribbean
+86,"Korea, North",18465000.0,2019,East and Southeast Asia
+87,Ghana,18093000.0,2019,Africa
+88,Bolivia,17786000.0,2019,South America
+89,Kenya,17709000.0,2019,Africa
+90,Sudan,17319000.0,2019,Africa
+91,Ethiopia,16798000.0,2019,Africa
+92,Croatia,16752000.0,2019,Europe
+93,Cuba,16478000.0,2019,Central America and the Caribbean
+94,Bosnia and Herzegovina,16209000.0,2019,Europe
+95,Lithuania,14503000.0,2019,Europe
+96,Gibraltar,14256000.0,2019,Europe
+97,Cambodia,13844000.0,2019,East and Southeast Asia
+98,Slovenia,13553000.0,2019,Europe
+99,Cote d'Ivoire,11880000.0,2019,Africa
+100,Tanzania,11491000.0,2019,Africa
+101,Luxembourg,11308000.0,2019,Europe
+102,Senegal,10696000.0,2019,Africa
+103,Georgia,10299000.0,2019,Middle East
+104,Yemen,10158000.0,2019,Middle East
+105,Jamaica,10002000.0,2019,Central America and the Caribbean
+106,Brunei,9956000.0,2019,East and Southeast Asia
+107,Malta,9576000.0,2019,Europe
+108,Honduras,8523000.0,2019,Central America and the Caribbean
+109,Latvia,8450000.0,2019,Europe
+110,Costa Rica,8115000.0,2019,Central America and the Caribbean
+111,Moldova,8114000.0,2019,Europe
+112,Cyprus,8024000.0,2019,Europe
+113,Kosovo,8009000.0,2019,Europe
+114,Zimbabwe,7902000.0,2019,Africa
+115,Paraguay,7896000.0,2019,South America
+116,Afghanistan,7893000.0,2019,South Asia
+117,Kyrgyzstan,7880000.0,2019,Central Asia
+118,Mozambique,7753000.0,2019,Africa
+119,Nepal,7708000.0,2019,South Asia
+120,Tajikistan,7643000.0,2019,Central Asia
+121,El Salvador,7632000.0,2019,Central America and the Caribbean
+122,North Macedonia,7383000.0,2019,Europe
+123,Mauritius,7191000.0,2019,Africa
+124,Cameroon,7105000.0,2019,Africa
+125,Benin,6903000.0,2019,Africa
+126,Zambia,6798000.0,2019,Africa
+127,Papua New Guinea,6491000.0,2019,East and Southeast Asia
+128,Uruguay,6450000.0,2019,South America
+129,Armenia,6354000.0,2019,Middle East
+130,Botswana,5965000.0,2019,Africa
+131,New Caledonia,5886000.0,2019,Australia and Oceania
+132,Uganda,5841000.0,2019,Africa
+133,Mali,5679000.0,2019,Africa
+134,Estonia,4924000.0,2019,Europe
+135,Nicaragua,4851000.0,2019,Central America and the Caribbean
+136,Equatorial Guinea,4528000.0,2019,Africa
+137,"Congo, Republic of the",4523000.0,2019,Africa
+138,Burkina Faso,4444000.0,2019,Africa
+139,Madagascar,4218000.0,2019,Africa
+140,Mauritania,4041000.0,2019,Africa
+141,"Bahamas, The",3984000.0,2019,Central America and the Caribbean
+142,Namibia,3831000.0,2019,Africa
+143,Albania,3794000.0,2019,Europe
+144,Gaza Strip,3341000.0,2019,Middle East
+145,West Bank,3341000.0,2019,Middle East
+146,Iceland,3337000.0,2019,Europe
+147,Haiti,3139000.0,2019,Central America and the Caribbean
+148,Guinea,2981000.0,2019,Africa
+149,Guyana,2743000.0,2019,South America
+150,"Congo, Democratic Republic of the",2653000.0,2019,Africa
+151,Gabon,2651000.0,2019,Africa
+152,Montenegro,2447000.0,2019,Europe
+153,Virgin Islands,2438000.0,2019,Central America and the Caribbean
+154,Niger,2374000.0,2019,Africa
+155,Suriname,2372000.0,2019,South America
+156,Maldives,2286000.0,2019,South Asia
+157,Togo,2244000.0,2019,Africa
+158,Macau,2012000.0,2019,East and Southeast Asia
+159,Guam,1828000.0,2019,Australia and Oceania
+160,South Sudan,1778000.0,2019,Africa
+161,Chad,1771000.0,2019,Africa
+162,Barbados,1703000.0,2019,Central America and the Caribbean
+163,Fiji,1691000.0,2019,Australia and Oceania
+164,Malawi,1542000.0,2019,Africa
+165,Liberia,1346000.0,2019,Africa
+166,Wake Island,1275000.0,2019,Australia and Oceania
+167,Aruba,1254000.0,2019,Central America and the Caribbean
+168,Eswatini,1224000.0,2019,Africa
+169,Rwanda,1189000.0,2019,Africa
+170,Seychelles,1156000.0,2019,Africa
+171,French Polynesia,1030000.0,2019,Australia and Oceania
+172,Cabo Verde,1002000.0,2019,Africa
+173,Bhutan,934000.0,2019,South Asia
+174,Sierra Leone,899000.0,2019,Africa
+175,Somalia,882000.0,2019,Africa
+176,Faroe Islands,870000.0,2019,Europe
+177,Cayman Islands,808000.0,2019,Central America and the Caribbean
+178,Eritrea,798000.0,2019,Africa
+179,Bermuda,796000.0,2019,North America
+180,Lesotho,736000.0,2019,Africa
+181,Antigua and Barbuda,729000.0,2019,Central America and the Caribbean
+182,Burundi,715000.0,2019,Africa
+183,Saint Lucia,659000.0,2019,Central America and the Caribbean
+184,Djibouti,610000.0,2019,Africa
+185,"Gambia, The",606000.0,2019,Africa
+186,Greenland,605000.0,2019,North America
+187,Belize,541000.0,2019,Central America and the Caribbean
+188,Timor-Leste,538000.0,2019,East and Southeast Asia
+189,Jersey,450000.0,2012,Europe
+190,American Samoa,355000.0,2019,Australia and Oceania
+191,Samoa,355000.0,2019,Australia and Oceania
+192,Guinea-Bissau,342000.0,2019,Africa
+193,Solomon Islands,333000.0,2019,Australia and Oceania
+194,Comoros,326000.0,2019,Africa
+195,Grenada,316000.0,2019,Central America and the Caribbean
+196,Marshall Islands,293700.0,2017,Australia and Oceania
+197,Central African Republic,285000.0,2019,Africa
+198,Saint Kitts and Nevis,268000.0,2019,Central America and the Caribbean
+199,Turks and Caicos Islands,245000.0,2019,Central America and the Caribbean
+200,Vanuatu,225000.0,2019,Australia and Oceania
+201,Saint Vincent and the Grenadines,202000.0,2019,Central America and the Caribbean
+202,Dominica,182000.0,2019,Central America and the Caribbean
+203,"Micronesia, Federated States of",177000.0,2019,Australia and Oceania
+204,British Virgin Islands,173000.0,2019,Central America and the Caribbean
+205,Sao Tome and Principe,173000.0,2019,Africa
+206,Tonga,171000.0,2019,Australia and Oceania
+207,Cook Islands,114000.0,2019,Australia and Oceania
+208,Saint Pierre and Miquelon,84000.0,2019,North America
+209,Kiribati,76000.0,2019,Australia and Oceania
+210,Nauru,66000.0,2019,Australia and Oceania
+211,Falkland Islands (Islas Malvinas),46000.0,2019,South America
+212,Montserrat,33000.0,2019,Central America and the Caribbean
+213,Antarctica,28000.0,2019,Antarctica
+214,"Saint Helena, Ascension, and Tristan da Cunha",13000.0,2019,Africa
+215,Niue,8000.0,2019,Australia and Oceania
+216,Northern Mariana Islands,0.0,2019,Australia and Oceania
+217,Tuvalu,0.0,2019,Australia and Oceania
